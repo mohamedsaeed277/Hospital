@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/my-page.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/all.main.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+  <div class="chat">
+    <i class="fa fa-comment" aria-hidden="true"></i>
+  </div>
+<!-- Start navbar -->
+<nav class="navbar navbar-expand-lg">
+  <div class="container">
+    <a class="navbar-brand" href="my-page.html">VEZEETA</a>
+</div>
+</nav>
+<!-- End navbar -->
+<div class="main">
+  <div class="row">
+    <div class="col-lg-12">
+      <div class="doctor">
+        <div class="doctor-panel">
+          <img class="doctor-profile" src="http://glia.ca/scm/2013/ge1127_b/wp-content/uploads/2013/10/594partner-profile-pic-An.jpg" />
+          <span class="doctor-name">specialization in</span>
+          <span class="doctor-speciality">General Medicine</span>
+        </div>
+        <div class="doctor-info">
+        <h2 class="primc">name analysis center</h2>
+        <div class="stars">
+          <i class="fa fa-star" aria-hidden="true"></i>
+          <i class="fa fa-star" aria-hidden="true"></i>
+          <i class="fa fa-star" aria-hidden="true"></i>
+          <i class="fa fa-star" aria-hidden="true"></i>
+          <i class="fa fa-star" aria-hidden="true"></i>
+         </div>
+       <h4>About analysis center :</h4>
+       <span class="alterc">Professor of Gynaecology and IVF</span>
+       <p class="alterc">Overall Rating From 230 Visitors</p>
+       <p class="alterc">Fees : 200 EGP</p>
+       <p class="primc">Waiting Time : 30 Minutes</p>
+       <p class="alterc">16676 - Cost of regular call</p>
+       <p class="alterc">call with the doctor : 0224238273467</p>
+       <h4>Follow the center on</h4>
+       <div class="footer-social-icon">
+        <a href="#"><i class="fa fa-facebook-f facebook-bg"></i></a>
+        <a href="#"><i class="fa fa-twitter twitter-bg"></i></a>
+        <a href="#"><i class="fa fa-google google-bg"></i></a>
+       </div>
+        </div>
+        <form>
+          <div class="form-group row">
+              <label for="inputName" class="col-sm-2 col-form-label">Name</label>
+              <div class="col-sm-10">
+                <input type="text" class="form-control" id="inputName" placeholder="Full patient name">
+              </div>
+            </div>
+          <div class="form-group row">
+            <label for="inputPhone" class="col-sm-2 col-form-label">Phone</label>
+            <div class="col-sm-10">
+              <input type="number" class="form-control" id="inputPhone" placeholder="Enter Your Phone">
+            </div>
+          </div>
+          <div class="form-group row">
+              <label for="inputEmail" class="col-sm-2 col-form-label">Email</label>
+              <div class="col-sm-10">
+                <input type="email" class="form-control" id="inputEmail" placeholder="example@domain.com">
+              </div>
+            </div>
+            <div class="form-group row">
+              <label for="inputState" class="col-sm-2 col-form-label">Gender</label>
+              <div class="col-sm-10">
+              <select id="inputState" class="form-control ">
+                <option selected>Choose...</option>
+                <option>Female</option>
+                <option>Male</option>
+              </select>
+            </div>
+            </div>
+            <div class="form-group">
+              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Write some notes"></textarea>
+            </div>
+            <button type="submit" class="btn"><a href="finish.html">Send</a></button>
+        </form>
+      </div>
+    </div>
+</div>
+</div>
+
+ <div class="col-lg-8 writ-comm">
+  <h2 class="primc">Make Rating And Add Comment</h2>
+  <div class="star-rating">
+    <div class="star-rating__wrap">
+      <input class="star-rating__input" id="star-rating-5" type="radio" name="rating" value="5">
+      <label class="star-rating__ico fa fa-star-o fa-lg" for="star-rating-5" title="5 out of 5 stars"></label>
+      <input class="star-rating__input" id="star-rating-4" type="radio" name="rating" value="4">
+      <label class="star-rating__ico fa fa-star-o fa-lg" for="star-rating-4" title="4 out of 5 stars"></label>
+      <input class="star-rating__input" id="star-rating-3" type="radio" name="rating" value="3">
+      <label class="star-rating__ico fa fa-star-o fa-lg" for="star-rating-3" title="3 out of 5 stars"></label>
+      <input class="star-rating__input" id="star-rating-2" type="radio" name="rating" value="2">
+      <label class="star-rating__ico fa fa-star-o fa-lg" for="star-rating-2" title="2 out of 5 stars"></label>
+      <input class="star-rating__input" id="star-rating-1" type="radio" name="rating" value="1">
+      <label class="star-rating__ico fa fa-star-o fa-lg" for="star-rating-1" title="1 out of 5 stars"></label>
+    </div>
+  </div>
+   <br>
+   <form>
+    <div class="form-group">
+      <textarea class="form-control" id="exampleFormControlTextarea1" rows="6" placeholder="Write Your Comment About The Center"></textarea>
+    </div>
+   </form>
+ </div>
+ <button class="addcom">Add Comment</button>
+
+ <div class="col-lg-6 evaluation">
+  <div class="stars">
+    <i class="fa fa-star" aria-hidden="true"></i>
+    <i class="fa fa-star" aria-hidden="true"></i>
+    <i class="fa fa-star" aria-hidden="true"></i>
+    <i class="fa fa-star" aria-hidden="true"></i>
+    <i class="fa fa-star" aria-hidden="true"></i>
+   </div>
+   <p class="alterc">General evaluation</p> <br>
+   <p class="alterc">"Comment"</p>
+   <span class="alterc">ahme ali</span> <br>
+   <p class="alterc">Friday January 8, 5:44 PM</p>
+ </div>
+
+<!-- start loading -->
+<div class="loading">
+  <div class="sk-fading-circle">
+    <div class="sk-circle1 sk-circle"></div>
+    <div class="sk-circle2 sk-circle"></div>
+    <div class="sk-circle3 sk-circle"></div>
+    <div class="sk-circle4 sk-circle"></div>
+    <div class="sk-circle5 sk-circle"></div>
+    <div class="sk-circle6 sk-circle"></div>
+    <div class="sk-circle7 sk-circle"></div>
+    <div class="sk-circle8 sk-circle"></div>
+    <div class="sk-circle9 sk-circle"></div>
+    <div class="sk-circle10 sk-circle"></div>
+    <div class="sk-circle11 sk-circle"></div>
+    <div class="sk-circle12 sk-circle"></div>
+  </div>
+</div>
+<!-- end loading -->
+
+<script src="js/jquery-3.5.1.min.js"></script>
+ <script src="js/bootstrap.min.js"></script>
+ <script src="js/my-page.js"></script>
+</body>
+</html> 
